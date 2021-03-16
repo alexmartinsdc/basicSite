@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto-Mono';
+}
+
+@font-face {
+    font-family: 'Roboto-Mono';
+    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+body {
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.251), rgb(150, 0, 0));
+}
+
+.menu-header {
+    background-color: white;
+}
+
+.carousel-inner .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner .item {
+    height: 60vh;
+    width: 100%;
+    min-height: 200px;
+}
+
+.img-content {
+    width: 350px;
+}
+
+.bold {
+    font-family: 'Roboto-Bold';
+}
+
+.text-home {
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+}
+
+.text-color {
+    color: white;
+}
+
+footer {
+    background-color: rgb(160, 0, 0);
+}
+
+footer span {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .55);
+    transition: color .15s;
+}
+
+.list-ms {
+    list-style: none;
+    list-style-type: none;
+}
+
+.icon-ms {
+    width: 30px;
+    transition: transform 1s;
+}
+
+.icon-ms:hover {
+    transform: rotate(360deg);
+}
+
+div#whatasapp {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(12, 122, 0, 0.8);
+    z-index: 999;
+    padding: 15px;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+div#whatasapp:hover {
+    padding: 20px;
+    transition: .5s;
+}
+
+/*** CSS IMG PRODUTOS ***/
+
+.img-prod {
+    width: 400px;
+    height: 300px;
+}
+
+/*** CSS CONTATO ***/
+
+.formContainer {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 35px;
+    border-radius: 15px;
+}
+
+.formContainer h2  {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#phone {
+    margin-bottom: 0px;
+}
+
+#subject {
+    margin-top: 10px;
+}
+
+form > small {
+    color: white;
+}
+
+form > input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+/*** CSS DICAS ***/
+
+.formContainer {
+    color: white;
+
+}
+.formContainer > ul > li {
+    list-style-type:circle;
+    font-weight: bold;
+}
